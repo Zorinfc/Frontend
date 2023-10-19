@@ -1,0 +1,49 @@
+/*
+Project Name   : Form Register
+Project Author : hamit Mızrak
+Project Date   : 12/10/2023
+Project Version: V1.0.0
+ */
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --temlpate-bg-color:#a9c8eb;
+    --template-color: #b0b3d1: 
+}
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    color: var(--template-color);
+    background-color: var(--temlpate-bg-color);
+}
+
+table,th,td{
+    border: 2px solid black;
+}
+/* container */
+.container{
+    position:relative;
+    width: 100%;
+    height: auto;
+    padding: 0.9rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* X Düzleminde */
+    align-items: center; /* Y Düzleminde*/
+    flex-wrap: nowrap; /* responsive olsun*/
+}
+input{
+    margin:0 0 2px 4px;  
+    background-color: inherit;
+    border-radius: 4px ;
+}
