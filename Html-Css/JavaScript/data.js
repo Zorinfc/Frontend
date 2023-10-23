@@ -39,46 +39,7 @@
 // let data10 ="Merhabalar";
 // console.log(typeof data10);
 
-// // ODEV
-//      let userData = prompt("Lütfen bir şeyler yazınız");
 
-// // S-1
-// console.log(userData.length);
-
-// // S-2
-//  console.log(userData);
-
-// S-3
-// console.log(userData.toLowerCase());
-
-// S-4
-// console.log(userData.toUpperCase());
-
-// S-5
-
-// let findFirstWord = userData.indexOf(" ");
-// console.log(findFirstWord);
-// let firstWord = userData.substring(0,findFirstWord);
-// console.log(firstWord);
-// userData = userData.replace(firstWord,"Javascript");
-
-// userData = userData.replace(userData.substring(0,userData.indexOf(" ")), "javascript");
-// console.log(userData);
-
-// // S-6
-// console.log(userData.startsWith("javascript"));
-
-// // S-7
-// console.log(userData.endsWith("javascript"));
-
-// // S-8
-// console.log(userData.charAt("0"));
-
-// // S-9
-// console.log(userData.concat("-ben js öğreniyorum"));
-
-// // S-10
-// console.log(userData.substring(0,4));
 
 // Immedia function (() => {})()
 // (() =>{

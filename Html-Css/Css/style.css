@@ -13,8 +13,13 @@ Project Version: V1.0.0
 }
 
 :root{
-    --temlpate-bg-color:#a9c8eb;
-    --template-color: #b0b3d1: 
+    --temlpate-bg-color:#4f90ff;
+    --template-container-color:#2496ff;
+    --template-differetnt-color:#65b5ff;
+    --template-light-color:#6fc1ff;
+    --template-button-color:#a6ff98;
+    --template-color:#ffffff;
+
 }
 html{
     font-size: 18px;
@@ -29,6 +34,7 @@ body{
 table,th,td{
     border: 2px solid black;
 }
+
 /* container */
 .container{
     position:relative;
@@ -41,9 +47,42 @@ table,th,td{
     justify-content: center; /* X Düzleminde */
     align-items: center; /* Y Düzleminde*/
     flex-wrap: nowrap; /* responsive olsun*/
+    background-color: var(--template-differetnt-color);
 }
 input{
-    margin:0 0 2px 4px;  
-    background-color: inherit;
+    margin: 4px 4px;
     border-radius: 4px ;
+    border:none;
+    height: auto;
+    width:auto;
+    position:relative;
+    padding-left: 6px;
+    background: var(--template-light-color);
+    display:flexbox;
+}
+
+
+#man,#woman,#readMe{
+    cursor: pointer;
+}
+
+i{
+    color:var(--template-button-color);
+    margin-left:4px;
+}
+
+button{
+
+    background-color: var(--template-button-color);
+    border-radius: 999px;
+    box-shadow: #6fc1ff 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-family:inherit;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    width: 49%;
+    height: 15%;
 }
